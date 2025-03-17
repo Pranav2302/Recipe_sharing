@@ -70,20 +70,14 @@ The app uses JWT-based authentication with token expiration and secure storage. 
 Recipe Management  
 Recipes include detailed information such as:  
   
-Title and description  
-Ingredients list with measurements  
-Step-by-step instructions  
+Title and description      
 Preparation and cooking times  
 Difficulty level  
-Serving size  
-Categories/tags  
-Featured image  
-PDF Generation  
+Serving size    
+Featured image    
 Each recipe can be downloaded as a beautifully formatted PDF document that includes:  
   
-Recipe details and image  
-Ingredients with measurements  
-Step-by-step instructions  
+Recipe details and image     
 Cooking information  
 Author details  
   
@@ -92,9 +86,12 @@ Authentication
 POST /api/auth/register - Register a new user  
 POST /api/auth/login - User login  
 GET /api/auth/me - Get current user  
+  
 Users  
 GET /api/users/profile - Get user profile  
 PUT /api/users/:id - Update user profile  
+  
+  
 Recipes  
 GET /api/recipes - Get all recipes (with pagination)  
 GET /api/recipes/:id - Get recipe by ID  
@@ -105,7 +102,6 @@ GET /api/recipes/search - Search recipes
   
 🖼️ UI Components  
 The app uses modern UI components including:  
-  
 Floating navigation with smooth animations  
 Glowing card effects  
 Motion transitions and hover states  
@@ -124,7 +120,6 @@ Error handling and validation
   
 📱 Responsive Design  
 The application is fully responsive and works on:  
-  
 Mobile devices  
 Tablets  
 Desktop computers  
