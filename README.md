@@ -1,6 +1,6 @@
 Recipe Sharing App  
 A modern, full-stack web application for sharing, discovering and managing recipes with a beautiful UI built using React, Express, and MySQL.  
-![Weather Dashboard Demo](Recipe.png)
+![Recipe-Sharing-App](Recipe.png)  
 📋 Features
 User Authentication: Secure login and registration system with JWT authentication  
 Recipe Management: Create, view, edit, and delete recipes   
