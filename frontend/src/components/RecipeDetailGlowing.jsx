@@ -48,6 +48,23 @@ export const RecipeDetailGlowing = ({ recipe }) => {
         </div>
       </div>
 
+      {/* Categories */}
+      {recipe.Categories && recipe.Categories.length > 0 && (
+        <div className="mb-6">
+          <h3 className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-2">Categories</h3>
+          <div className="flex flex-wrap gap-2">
+            {recipe.Categories.map(category => (
+              <span 
+                key={category.id} 
+                className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
+              >
+                {category.name}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
       {(recipe?.image || !imageError) && (
         <div className="relative rounded-2xl border p-2 mb-6">
           <GlowingEffect
